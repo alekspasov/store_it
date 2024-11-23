@@ -41,4 +41,7 @@ export interface DeleteFileProps {
 
 export interface GetFilesProps {
   types: FileType[];
+  searchText?: string;
+  sort?: string;
+  limit?: number;
 }
